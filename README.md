@@ -1,6 +1,6 @@
-# Template for project 1
+# Template for your website
 
-This repository is your group's place to store all files for the implementation phase of Project 1. The Analysis and Design artefacts are still stored on OneDrive, which you have worked with the past weeks.
+This repository contains all files for the implementation phase of your project. 
 
 You are free to re-structure this repository to your liking, but make sure that you have a system and it's not chaotic!
 
@@ -16,7 +16,7 @@ You can create more folders if you need them! Separate images from music files, 
 
 ## Start the application
 
-1. Copy or rename the `.env-example` file to `.env`, make sure the leading 'dot' stays there.
+1. Copy or rename the `my.env-example` file to `.env`, make sure the leading 'dot' stays there.
 2. Only Linux and MacOS users, change the values of `UID` and `GID` according to your system
      - To get the correct values, in the terminal type the following commands for `UID` and `GID` respecively:
         - `id -u`
