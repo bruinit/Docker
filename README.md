@@ -6,11 +6,11 @@ You are free to re-structure this repository to your liking, but make sure that 
 
 If you are unsure, just use the template as given. Your repository is structured the following way:
 
-`./website`: here you can store the html or php files
+`./www`: here you can store the html or php files
 
-`./website/images`: this is the folder in which you store all your images
+`./www/images`: this is the folder in which you store all your images
 
-`./website/styles`: this is the folder for your css files
+`./www/styles`: this is the folder for your css files
 
 You can create more folders if you need them! Separate images from music files, find a good place to store documentation that you may need, and so on!
 
