@@ -16,12 +16,15 @@ You can create more folders if you need them! Separate images from music files, 
 
 ## Start the application
 
-1. Copy or rename the `my.env-example` file to `.env`, make sure the leading 'dot' stays there.
+1. Install Docker Desktop
+	[https://docs.docker.com/desktop/install/windows-install/](Windows)
+	MAC - x86 chip
+	MAC - Apple chip
 2. Only Linux and MacOS users, change the values of `UID` and `GID` according to your system
      - To get the correct values, in the terminal type the following commands for `UID` and `GID` respecively:
         - `id -u`
         - `id -g`
-3. Open a terminal at the location of this README file
+3. Open a terminal (CMD) at the location of this README file
     - Open a terminal and use `cd` to get to the correct location
     - Or right click in finder/explorer and `Open in terminal`
 4. To start the application type the following command:
