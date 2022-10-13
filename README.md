@@ -17,7 +17,7 @@ You can create more folders if you need them! Separate images from music files, 
 ## Start the application
 
 1. Install Docker Desktop
-	[https://docs.docker.com/desktop/install/windows-install/](Windows)
+	- [WIndows](https://docs.docker.com/desktop/install/windows-install/)
 	MAC - x86 chip
 	MAC - Apple chip
 2. Only Linux and MacOS users, change the values of `UID` and `GID` according to your system
