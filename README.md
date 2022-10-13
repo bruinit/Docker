@@ -27,7 +27,9 @@ You can create more folders if you need them! Separate images from music files, 
 4. To start the application type the following command:
     - `docker-compose up -d`
     - It may take a while on the first start :)
-5. Open your favorite browser and go to [http://127.0.0.1/](http://127.0.0.1/) and it should show a page indicating that everything is working.
+5. Open your favorite browser and go to [http://127.0.0.1/](http://127.0.0.1/) or [http://localhost/](http://localhost/) and it should show a page indicating that everything is working.
 6. To stop the docker containters run the following command:
     - `docker-compose stop`
 7. Now it is also possible to start/stop the container from Docker Desktop
+
+Also you can use Database GUI phpMyAdmin via [http://localhost:8080/](http://localhost:8080/)
