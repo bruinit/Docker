@@ -20,15 +20,18 @@ You can create more folders if you need them! Separate images from music files, 
 	- [Windows](https://docs.docker.com/desktop/install/windows-install/)
 	- [MacOS - x86 chip](https://docs.docker.com/desktop/install/mac-install/)
 	- [MacOS - Apple chip](https://docs.docker.com/desktop/mac/apple-silicon/)
-2. Open a terminal (CMD) at the location of this README file
+2. Start Docker desktop    
+3. Open a terminal (CMD) at the location of this README file
     - Open a terminal and use `cd` to get to the correct location
     - Or right click in finder/explorer and `Open in terminal`
-3. To start the application type the following command:
+4. To start the application type the following command:
     - `docker-compose up -d`
     - It may take a while on the first start :)
-4. Open your favorite browser and go to [http://127.0.0.1/](http://127.0.0.1/) or [http://localhost/](http://localhost/) and it should show a page indicating that everything is working.
-5. To stop the docker containters run the following command:
+5. Open your favorite browser and go to [http://127.0.0.1/](http://127.0.0.1/) or [http://localhost/](http://localhost/) and it should show a page indicating that everything is working.
+6. To stop the docker containters run the following command:
     - `docker-compose stop`
-6. Now it is also possible to start/stop the container from Docker Desktop
+7. Now it is also possible to start/stop the container from Docker Desktop
 
 Also you can use Database GUI phpMyAdmin via [http://localhost:8080/](http://localhost:8080/)
+
+If your system has IIS running you can stop this using: `iisreset /stop` in an elevated command prompt (admin).
