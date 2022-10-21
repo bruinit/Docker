@@ -10,7 +10,7 @@ If you are unsure, just use the template as given. Your repository is structured
 
 `./www/images`: this is the folder in which you store all your images
 
-`./www/styles`: this is the folder for your css files
+`./www/css`: this is the folder for your css files
 
 You can create more folders if you need them! Separate images from music files, find a good place to store documentation that you may need, and so on!
 
