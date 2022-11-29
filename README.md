@@ -32,6 +32,6 @@ You can create more folders if you need them! Separate images from music files, 
     - `docker-compose stop`
 7. Now it is also possible to start/stop the container from Docker Desktop
 
-Also you can use Database GUI phpMyAdmin via [http://localhost:8080/](http://localhost:8080/)
+Also you can use Database GUI phpMyAdmin via [http://localhost:8000/](http://localhost:8000/)
 
 If your system has IIS running you can stop this using: `iisreset /stop` in an elevated command prompt (admin).
