@@ -11,6 +11,7 @@ services:
         - db
       networks:
         - default    
+      restart: always
   db:
     image: mysql:5.7
     container_name: db
@@ -21,6 +22,7 @@ services:
       MYSQL_PASSWORD: test
     ports:
       - "3306:3306"
+    restart: always  
     volumes:
       - dbdata:/var/lib/mysql
   phpmyadmin:
